@@ -64,8 +64,17 @@ This application is designed for:
 
 ## Getting Started
 
-No technical expertise is required to use the Sentiment Analyzer Application. Just run the program, load your review data, and let the tool do the work for you. If you need help or have any questions, please feel free to reach out.
+Follow these steps to set up the Sentiment Analyzer Application on your local machine. These instructions work for both Windows and macOS (or Linux).
 
+### 1. Clone the Repository
+
+Open your terminal (Command Prompt on Windows, Terminal on macOS/Linux) and clone the repository:
+1 - git clone https://github.com/sachinchhetri202/SentimentAnalyzerApplication.git
+2 - Then, navigate into the project directory: cd SentimentAnalyzerApplication
+3 - Set Up a Virtual Environment: python -m venv .venv
+4 - Run Script: In Windows: .venv\Scripts\activate | In Mac: source .venv/bin/activate
+5 - Run Script: pip install -r requirements.txt
+6 - Run Script: python main.py
 ---
 
 ## About
@@ -75,4 +84,4 @@ This project was created to help businesses and individuals better understand cu
 
 ---
 
-Thank you for checking out the Sentiment Analyzer Application. We hope it helps you gain valuable insights from your customer reviews!
+Thank you for checking out the Sentiment Analyzer Application.
