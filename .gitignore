@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment directories (adjust if you have a different naming convention)
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Confidential review CSV file - don't push sensitive data
+Reviews.csv
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Log files and temporary files
+*.log
+*.tmp
+
+# Editor-specific files (for example, VSCode)
+.vscode/
+.idea/
+
+# Other build artifacts
+dist/
+build/
+*.egg-info/
